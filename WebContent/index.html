@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<button id="insertButton" class="float-left submit-button">Insert</button>
+
+	<script type="text/javascript">
+		document.getElementById("insertButton").onclick = function() {
+			location.href = "/point-grapher/InsertPointPage";
+		};
+	</script>
+
+	<button id="viewPoint" class="float-left submit-button">view
+		point</button>
+	<script type="text/javascript">
+		document.getElementById("viewPoint").onclick = function() {
+			location.href = "/point-grapher/GetPoint";
+		};
+	</script>
+
+	<button id="viewAll" class="float-left submit-button">view all</button>
+	<script type="text/javascript">
+		document.getElementById("viewAll").onclick = function() {
+			location.href = "/point-grapher/ViewAll.jsp";
+		};
+	</script>
+
+</body>
+</html>
